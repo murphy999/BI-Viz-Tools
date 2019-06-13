@@ -1,4 +1,17 @@
 # Power-BI
+Power BI is a cloud based data analysis tool, which can be used for reporting and data analysis from wide range of data sources.
+It is made up of 6 main components : 
+<ol>
+  <li> Power Query - Data mashup and transformation tool that uses M language.</li>
+  <li> Power Pivot - In-memory tabular data modeling tool. Works on XVelocity(In-memory based tabular engine). 
+                     Uses DAX for building measures and calculated columns.</li>
+  <li> Power View - Data Visualization tool.</li>
+  <li> Power Map - 3D Geospatial data visualization tool. </li>
+  <li> Power Q&A - Natural Language Q&A engine. </li>
+  <li> Power BI Desktop - Development tool. </li>
+</ol>
+
+
 <h2>VISUALIZATIONS</h2>
 
 <strong> FOODMART REPORT </strong>
