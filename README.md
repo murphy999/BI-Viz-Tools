@@ -10,7 +10,8 @@ It is made up of 6 main components :
   <li> Power Q&A - Natural Language Q&A engine. </li>
   <li> Power BI Desktop - Development tool. </li>
 </ol>
-
+<br>
+<img src ='https://github.com/murphy999/Power-BI/blob/master/Viz.%20Cheat%20Sheet.jpg' />
 
 <h2>VISUALIZATIONS</h2>
 
@@ -20,5 +21,5 @@ It is made up of 6 main components :
 <hr>
 <strong> HOSPITAL REPORT </strong><br>
 <iframe width="800" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiZmJjNzUwMGEtY2FhMy00NjQyLThiMmMtZmY0NDMxZjQ3YTg3IiwidCI6IjMzNDQwZmM2LWI3YzctNDEyYy1iYjczLTBlNzBiMDE5OGQ1YSIsImMiOjh9" frameborder="0" allowFullScreen="true"></iframe>
-
+<br>
 <a href ="https://drive.google.com/file/d/1R7nnalGiFR7RF0urlBHqUBLclOEoW87N/view?usp=sharing"> Power BI Book </a>
