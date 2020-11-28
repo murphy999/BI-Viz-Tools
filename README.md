@@ -20,3 +20,5 @@ It is made up of 6 main components :
 <hr>
 <strong> HOSPITAL REPORT </strong><br>
 <iframe width="800" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiZmJjNzUwMGEtY2FhMy00NjQyLThiMmMtZmY0NDMxZjQ3YTg3IiwidCI6IjMzNDQwZmM2LWI3YzctNDEyYy1iYjczLTBlNzBiMDE5OGQ1YSIsImMiOjh9" frameborder="0" allowFullScreen="true"></iframe>
+
+<a href ="https://drive.google.com/file/d/1R7nnalGiFR7RF0urlBHqUBLclOEoW87N/view?usp=sharing"> Power BI Book </a>
