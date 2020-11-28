@@ -1,0 +1,10 @@
+Customers born in Jan
+CALCULATE(TOTAL CUST,MONTH(CUSTOMERS[BIRTHDATE])=1)
+
+Customers earning at least $100000 per year
+CALCULATE(TOTAL COST,CUSTOMERS[YEARLYINCOME]>=100000)
+Total sales of bike
+CALCULATE(TOTAL SALES,FILTER(PRODUCTS,[CATEGORY]="Bikes")
+Total sales of products that have some sales but less than $10000
+CALCULATE(TOTAL SALES,FILTER(PRODUCTS,[TOTAL SALES]<10000 && [TOTAL SALES] > 0)
+

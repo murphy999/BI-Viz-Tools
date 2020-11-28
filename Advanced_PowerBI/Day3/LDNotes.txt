@@ -1,0 +1,8 @@
+CALCULATE(IF(ISBLANK(SUM(OrdersData[Sales])),0,SUM(OrdersData[Sales])),
+PREVIOUSDAY(OrdersData[Order Date].[Date]))
+
+https://atos365-my.sharepoint.com/:v:/g/personal/vijay_anandarjunwadkar_atos_net/Efl_Uvr2wz5JnOjwtpBUkkkBORyyliO-U9A46S72Yw3r-A?e=dZIDE4
+
+https://atos365-my.sharepoint.com/:v:/g/personal/vijay_anandarjunwadkar_atos_net/Efuu1sOTlvtGvEcHOKD2dP4BqiR6CJKyEghZ6lnOmGHLSw?e=UWINwi
+
+https://atos365-my.sharepoint.com/:v:/g/personal/vijay_anandarjunwadkar_atos_net/EXecWEZ-7f1Nr9bM6IQmb-8BtfNoTqKdyp1HtoYiZ90Qww?e=0zVgdX
