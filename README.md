@@ -31,5 +31,3 @@ It is made up of 6 main components :
     </a>
   </li>
 </ol>
-<h2>E-books</h2>
-<a href ="https://drive.google.com/file/d/1R7nnalGiFR7RF0urlBHqUBLclOEoW87N/view?usp=sharing"> <b>Power BI Book</b> </a>
