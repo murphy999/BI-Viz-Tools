@@ -1,0 +1,46 @@
+Local - You can import data from a local file into Power BI. 
+        The file isn't moved into Power BI, and a link doesn't remain to it. 
+        Instead, a new dataset is created in Power BI, and data from the Excel file is loaded into it. 
+        Accordingly, changes to the original Excel file are not reflected in your Power BI dataset. 
+        You can use local data import for data that doesn't change.
+
+OneDrive for - You can pull data from OneDrive for Business into Power BI. 
+Business       This method is effective in keeping an Excel file and your dataset, reports, and dashboards in Power BI synchronized. 
+	       Power BI connects regularly to your file on OneDrive. 
+	       If any changes are found, your dataset, reports, and dashboards are automatically updated in Power BI.
+
+After the file has connected to Power BI Desktop, the Navigator window opens. This window shows you the data that is available in your data source (the Excel file in this example). You can select a table or entity to preview its contents, to ensure that the correct data is loaded into the Power BI model.
+You now have the option to select the Load button to automatically load your data into the Power BI model or select the Transform Data button to launch the Power Query Editor, where you can review and clean your data before loading it into the Power BI model.
+
+Sometimes there may be security requirements around your data that make it impossible to directly import a copy. Or your datasets may simply be too large and would take too long to load into Power BI, and you want to avoid creating a performance bottleneck. 
+Power BI solves these problems by using the DirectQuery storage mode, which allows you to query the data in the data source directly and not import a copy into Power BI. 
+DirectQuery is useful because it ensures you are always viewing the most recent version of the data.
+
+The three different types of storage modes you can choose from:
+1.Import
+2.DirectQuery
+3.Dual (Composite)
+
+You can access storage modes by switching to the Model view, selecting a data table, and in the resulting Properties pane, selecting which mode that you want to use from the Storage mode drop-down list.
+
+Import mode
+The Import mode allows you to create a local Power BI copy of your datasets from your data source. You can use all Power BI service features with this storage mode, including Q&A and Quick Insights. 
+However, data refreshes must be done manually. Import mode is the default for creating new Power BI reports.
+
+Azure Analysis Services is similar to the data modeling and storage technology in Power BI.
+
+The query folding within Power Query Editor helps you increase the performance of your Power BI reports. 
+Query folding is the process by which the transformations and edits that you make in Power Query Editor are simultaneously tracked as native queries, or simple Select SQL statements, while you are actively making transformations. 
+The reason for implementing this process is to ensure that these transformations can take place in the original data source server and do not overwhelm Power BI computing resources.
+
+You can use Power Query to load data into Power BI. Using Power Query Editor you can then make further transformations to your data, such as renaming or deleting columns, appending, parsing, filtering, or grouping your data.
+
+Then, when you load your data, the transformations take place independently in the original source, this ensures that performance is optimized in Power BI.
+
+Native queries are not possible for the following transformations:
+
+Adding an index column
+Merging and appending columns of different tables with two different sources
+Changing the data type of a column
+Running complex DAX functions
+
