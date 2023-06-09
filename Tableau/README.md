@@ -5,6 +5,7 @@
     <a href="https://public.tableau.com/profile/max6387"><b>Tableau Public Profile</b></a>
   </div>
   
+  <hr>
   
   ### My Design Preference
   <div>
